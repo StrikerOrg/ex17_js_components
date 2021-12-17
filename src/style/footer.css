@@ -1,0 +1,22 @@
+footer {
+  height: 55px;
+  width: 100%;
+  min-width: 1152px;
+  background: #0067a3;
+  line-height: 21px;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0079bf;
+}
+footer .info {
+  margin-right: 25px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  font-size: 18px;
+}

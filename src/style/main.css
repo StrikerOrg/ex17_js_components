@@ -1,0 +1,107 @@
+main {
+  background: #0079bf;
+  min-height: 500px;
+  height: 100%;
+  overflow-x: scroll;
+  display: flex;
+  min-width: 1152px;
+}
+main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+main::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+main::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgb(83, 83, 83);
+}
+.row-fragment {
+  display: flex;
+  justify-content: space-between;
+  width: 32px;
+  margin-bottom: 3px;
+  vertical-align: middle;
+}
+.row-fragment .ring {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+.row-fragment .line {
+  width: 19px;
+  height: 2px;
+  background: white;
+  margin-top: 3px;
+}
+.logo {
+  width: 31px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+}
+.app-logo span {
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.app-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 384px;
+  height: 45px;
+  margin-left: 14px;
+  align-items: center;
+}
+.user-menu {
+  display: flex;
+  align-items: center;
+}
+.user-menu .arrow {
+  height: 8px;
+  width: 12px;
+}
+.user-ivent {
+  display: flex;
+  margin-right: 6px;
+  align-items: center;
+}
+.create-list {
+  width: 181px;
+  height: 33px;
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+  border: 1px solid transparent;
+}
+.create-list span {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.add {
+  width: 22px;
+  height: 22px;
+}
+.user {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: relative;
+  margin-right: 7px;
+}
+.user img {
+  position: absolute;
+  left: 5px;
+  bottom: 0px;
+}
